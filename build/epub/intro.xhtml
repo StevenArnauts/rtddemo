@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <title>Intro</title>
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="intro">
+<h1>Intro</h1>
+<p>Introduction to the eBox connector</p>
+<p>The eBox connector supports the following processes:</p>
+<ul class="simple">
+<li><p>eBox Registration</p></li>
+<li><p>New eBox Document</p></li>
+<li><p>Consent Expiration (not available yet)</p></li>
+<li><p>Consent Renewal (not available yet)</p></li>
+<li><p>Deregistration (not available yet)</p></li>
+</ul>
+<p>During these processes the eBox connector behaves a back-end service. There is no explicit interaction with the user. It will take care of the following tasks:</p>
+<ul class="simple">
+<li><p>Management of the user consent and Oauth tokens</p></li>
+<li><p>Storage of eBox document using Doccle</p></li>
+<li><p>Single point of interaction for all government api’s like:</p>
+<ul>
+<li><p>Document provider register</p></li>
+<li><p>FAS login</p></li>
+<li><p>Event API</p></li>
+<li><p>Api’s of all document providers</p></li>
+</ul>
+</li>
+<li><p>Audit logging</p></li>
+</ul>
+<p>The usage of the receiver plugin to visualise eBox documents is out of scope of this document.</p>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>
